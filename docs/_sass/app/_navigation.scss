@@ -1,0 +1,62 @@
+.gdm-nav {
+  background-color: $dark;
+  counter-reset: nav-link-0;
+  flex-wrap: nowrap;
+}
+
+.nav-link.active {
+  background-color: $primary;
+  color: $light;
+}
+
+.nav-link {
+  
+}
+
+.gdm-nav-level-0 {
+  > a::before {
+    display: inline-block;
+    width: 3em;
+  }
+}
+
+.gdm-nav-link-0,
+.gdm-nav-link-1,
+.gdm-nav-link-2,
+.gdm-nav-link-3 {
+  &::before {
+    display: inline-block;
+    width: 3em;
+  }
+}
+
+.gdm-nav-link-0 {
+  counter-reset: nav-link-1;
+  &::before {
+    content: counter(nav-link-0, upper-roman);
+    counter-increment: nav-link-0;
+  }
+}
+
+.gdm-nav-link-1 {
+  counter-reset: nav-link-2;
+  &::before {
+    content: counter(nav-link-1);
+    counter-increment: nav-link-1;
+  }
+}
+
+.gdm-nav-link-2 {
+  counter-reset: nav-link-3;
+  &::before {
+    content: counter(nav-link-1) "." counter(nav-link-2);
+    counter-increment: nav-link-2;
+  }
+}
+
+.gdm-nav-link-3 {
+  &::before {
+    content: counter(nav-link-1) "." counter(nav-link-2) "." counter(nav-link-3);
+    counter-increment: nav-link-3;
+  }
+}

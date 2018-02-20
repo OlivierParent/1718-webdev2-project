@@ -1,0 +1,9 @@
+<div class="gdm-nav-level-3">
+{%- for navItem in include.navItems %}
+    {%- if navItem.relative_url %}
+    <a class="nav-link gdm-nav-link-3" href="{{ navItem.relative_url | relative_url }}" target="view">{{ navItem.label }}</a>
+    {%- else %}
+    <a class="nav-link gdm-nav-link-3 disabled" href="#">{{ navItem.label }}</a>
+    {%- endif %}
+{%- endfor %}
+</div>

@@ -1,0 +1,122 @@
+# ╔══════════════════════════════════════════════╗
+# ║ Code indentation is important in YAML files! ║
+# ╚══════════════════════════════════════════════╝
+#
+# label       : label in navigation
+# relative_url: permalink of the page
+# children    : subpages
+-
+  label: Productiedossier
+  icon_class: fa fa-fw fa-wrench
+  children:
+    -
+      label: Discover
+      relative_url: production/discover/
+      children:
+    -
+      label: Define
+      relative_url: production/define/
+      children:
+        -
+          label: Planning
+          relative_url: production/define/planning/
+        -
+          label: Analyse
+          relative_url: production/define/analyse/
+        -
+          label: Technische Analyse
+          relative_url: production/define/technische-analyse/
+        -
+          label: Journey Maps
+          relative_url: production/define/journey-maps/
+        -
+          label: Concept
+          relative_url: production/define/concept/
+        -
+          label: Ideaboard
+          relative_url: production/define/ideaboard/
+    -
+      label: Design
+      relative_url: production/design/
+      children:
+        -
+          label: Style Tiles
+          relative_url: production/design/style-tiles/
+        -
+          label: Smartwatch-app
+          relative_url: production/design/smartwatch-app/
+          children:
+            -
+              label: Wireflow
+              relative_url: production/design/smartwatch-app/wireflow/
+            -
+              label: Gebruikerstests
+              relative_url: production/design/smartwatch-app/gebruikerstests/
+            -
+              label: Screen Designs
+              relative_url: production/design/smartwatch-app/screen-designs/
+        -
+          label: Smartphone-app
+          relative_url: production/design/smartphone-app/
+          children:
+            -
+              label: Wireflow
+              relative_url: production/design/smartphone-app/wireflow/
+            -
+              label: Gebruikerstests
+              relative_url: production/design/smartphone-app/gebruikerstests/
+            -
+              label: Screen Designs
+              relative_url: production/design/smartphone-app/screen-designs/
+        -
+          label: Website
+          relative_url: production/design/website/
+          children:
+            -
+              label: Sitemap
+              relative_url: production/design/website/sitemap/
+            -
+              label: Wireframes
+              relative_url: production/design/website/wireframes/
+            -
+              label: Screen Designs
+              relative_url: production/design/website/screen-designs/
+    # -
+    #   label: Develop
+    #   relative_url: production/develop/
+    #   children:
+    # -
+    #   label: Deliver
+    #   relative_url: production/deliver/
+    #   children:
+    # -
+    #   label: Deploy
+    #   relative_url: production/deploy/
+    #   children:
+-
+  label: UI Style Guide
+  children:
+    -
+      label: Overzicht
+      relative_url: ui-style-guide/overzicht/
+    -
+      label: Typegrafie
+      relative_url: ui-style-guide/typografie/
+    -
+      label: Kleuren
+      relative_url: ui-style-guide/kleuren/
+    -
+      label: Knoppen
+      relative_url: ui-style-guide/knoppen/
+    -
+      label: Formulieren
+      relative_url: ui-style-guide/formulieren/
+-
+  label: Timesheets
+  children:
+    -
+      label: Student 1
+      relative_url: timesheets/student-1/
+    -
+      label: Student 2
+      relative_url: timesheets/student-2/
