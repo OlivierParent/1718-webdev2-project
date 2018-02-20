@@ -1,3 +1,19 @@
+{%- assign navigation = site.new_array %}
+{%- for nav_item in site.data.navigation-auto %}
+    {%- capture where_expression %}item.path contains '{{ nav_item.path }}'{% endcapture %}
+    {%- assign filtered_pages = site.pages | where_exp: 'item', where_expression %}
+    {%- for filtered_page in filtered_pages %}
+{%- capture nav_item_code %}{
+    "name": "{{ filtered_page.name }}",
+    "permalink": "{{ filtered_page.permalink | absolute_url }}",
+    "title": "{{ filtered_page.title }}"
+}{% endcapture %}
+        {% assign navigation = navigation | push: nav_item_code %}
+    {% endfor %}
+{%- endfor %}
+[{{ navigation | join: ',' }}]
+
+
 <nav class="nav">
     <a class="nav__link nav__link--active" href="{{ site.baseurl }}{% link pages/home.md %}" target="view">
         <i class="fa fa-fw fa-home"></i> {{ site.title }}

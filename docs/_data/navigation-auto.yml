@@ -7,9 +7,9 @@
 # children    : subpages
 -
   label: Productiedossier
-  folder: pages/production/
-  iconClass: fa fa-fw fa-wrench
+  path: pages/production/
+  icon_class: fa fa-fw fa-wrench
 -
   label: Test
-  folder: pages/production/
-  iconClass: fa fa-fw fa-wrench
+  path: pages/production/
+  icon_class: fa fa-fw fa-wrench
