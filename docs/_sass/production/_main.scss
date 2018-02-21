@@ -1,5 +1,10 @@
 @import "../main";
 
+@import
+  "functions",
+  "variables",
+  "table";
+
 body {
     padding: 1em;
 }

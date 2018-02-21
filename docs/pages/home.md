@@ -3,11 +3,10 @@ layout   : production
 permalink: home
 # Custom Page Variables
 # ─────────────────────
-title: Opdracht NMD-III
+title: Opdracht WEBDEV-II
 ---
 
-Wie zijn we?
-------------
+Wie ben ik?
+-----------
 
- - John Doe, 2CMO
- - Jane Doe, 2CMO
+John Doe, 2MMP NMD
