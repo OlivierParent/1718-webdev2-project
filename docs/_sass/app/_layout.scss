@@ -1,18 +1,19 @@
-.gdm-wrapper {
+.wrapper {
   display: flex;
+  overflow: hidden;
 }
 
-.gdm-nav,
-.gdm-view {
+.nav,
+.view {
   height: 100vh;
 }
 
-.gdm-nav {
+.nav {
   flex: 1 0 250px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.gdm-view {
+.view {
   flex: 2 1 66%;
 }

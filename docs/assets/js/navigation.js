@@ -1,7 +1,8 @@
 $(function () {
-  const $navLinks = $('.gdm-nav .nav-link');
+  const classActive = 'nav__link--active';
+  const $navLinks = $('.nav .nav__link:not(.nav__link--disabled)');
   $navLinks.on('click', function () {
-   $navLinks.removeClass('active');
-   $(this).addClass('active');
+    $navLinks.removeClass(classActive);
+    $(this).addClass(classActive);
  })
 });

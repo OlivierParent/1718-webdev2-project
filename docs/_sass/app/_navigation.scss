@@ -1,62 +1,92 @@
-.gdm-nav {
+.nav {
+  font-family: sans-serif;
   background-color: $dark;
-  counter-reset: nav-link-0;
+  counter-reset: nav-level-0;
   flex-wrap: nowrap;
-}
-
-.nav-link.active {
-  background-color: $primary;
-  color: $light;
-}
-
-.nav-link {
-  
-}
-
-.gdm-nav-level-0 {
-  > a::before {
-    display: inline-block;
-    width: 3em;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 }
 
-.gdm-nav-link-0,
-.gdm-nav-link-1,
-.gdm-nav-link-2,
-.gdm-nav-link-3 {
+$nav-link-indent-base: 2em;
+$nav-link-indent-level: 1em;
+$text-default: $primary;
+$text-invert: white;
+.nav__link {
+  display: block;
+  padding: .5em 0 .5em $nav-link-indent-base;
+  position: relative;
+  text-decoration: none;
+  &:active,
+  &:link,
+  &:hover,
+  &:visited {
+    color: $text-default;
+  }
+  &:hover {
+    background-color: red;
+    color: $text-invert;
+  }
   &::before {
-    display: inline-block;
-    width: 3em;
+    opacity: .5;
+    padding-left: .25em;
+    position: absolute;
+    left: 0;
+  }
+  &.nav__link--active {
+    background-color: $primary;
+    color: $text-invert;
+  }
+  &.nav__link--disabled {
+    background-color: transparent;
+    color: $text-default;
+    &:hover {
+      cursor: default;
+    }
   }
 }
 
-.gdm-nav-link-0 {
-  counter-reset: nav-link-1;
-  &::before {
-    content: counter(nav-link-0, upper-roman);
-    counter-increment: nav-link-0;
+.nav__level {
+  &--0 {
+    > li > .nav__link {
+      font-weight: bold;
+      text-transform: uppercase;
+      &::before {
+        content: counter(nav-level-0, upper-roman);
+        counter-increment: nav-level-0;
+      }
+    }
   }
-}
-
-.gdm-nav-link-1 {
-  counter-reset: nav-link-2;
-  &::before {
-    content: counter(nav-link-1);
-    counter-increment: nav-link-1;
+  &--1 {
+    counter-reset: nav-level-1;
+    > li > .nav__link {
+      padding-left: $nav-link-indent-base + 1 * $nav-link-indent-level;
+      &::before {
+        content: counter(nav-level-1);
+        counter-increment: nav-level-1;
+      }
+    }
   }
-}
-
-.gdm-nav-link-2 {
-  counter-reset: nav-link-3;
-  &::before {
-    content: counter(nav-link-1) "." counter(nav-link-2);
-    counter-increment: nav-link-2;
+  &--2 {
+    counter-reset: nav-level-2;
+    > li > .nav__link {
+      padding-left: $nav-link-indent-base + 2 * $nav-link-indent-level;
+      &::before {
+        content: counter(nav-level-1) "." counter(nav-level-2);
+        counter-increment: nav-level-2;
+      }
+    }
   }
-}
-
-.gdm-nav-link-3 {
-  &::before {
-    content: counter(nav-link-1) "." counter(nav-link-2) "." counter(nav-link-3);
-    counter-increment: nav-link-3;
+  &--3 {
+    counter-reset: nav-level-3;
+    > li > .nav__link {
+      padding-left: $nav-link-indent-base + 3 * $nav-link-indent-level;
+      &::before {
+        content: counter(nav-level-1) "." counter(nav-level-2) "." counter(nav-level-3);
+        counter-increment: nav-level-3;
+      }
+    }
   }
 }

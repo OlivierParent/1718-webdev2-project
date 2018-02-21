@@ -1,10 +1,10 @@
 ---
 layout   : production
-permalink: production/define/
+permalink: production/discover/briefing/
 # Custom Page Variables
 # ─────────────────────
-title: Define
+title: Discover
 ---
 
-Overzicht
----------
+Briefing
+--------
