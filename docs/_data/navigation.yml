@@ -7,123 +7,122 @@
 # children    : subpages
 -
   title: Discover
-  # relative_url: production/discover/
+  # permalink: discover/
   children:
     -
       title: Briefing
-      relative_url: production/discover/briefing/
+      permalink: discover/briefing/
 -
   title: Define
-  # relative_url: production/define/
+  # permalink: define/
   children:
     -
       title: Planning
-      relative_url: production/define/planning/
+      permalink: define/planning/
     -
       title: Analyse
-      relative_url: production/define/analyse/
+      permalink: define/analyse/
     -
       title: Algemeen Concept
-      relative_url: production/define/concept/
+      permalink: define/concept/
     -
       title: Requirements
-      relative_url: production/define/requirements/
+      permalink: define/requirements/
       children:
         -
           title: API
-          relative_url: production/define/requirements/api/
+          permalink: define/requirements/api/
         -
           title: Backoffice
-          relative_url: production/define/requirements/backoffice/
+          permalink: define/requirements/backoffice/
         -
           title: Frontoffice
-          relative_url: production/define/requirements/frontoffice/
+          permalink: define/requirements/frontoffice/
     -
       title: Scenarios
-      relative_url: production/define/scenarios/
+      permalink: define/scenarios/
       children:
         -
           title: API
-          relative_url: production/define/scenarios/api/
+          permalink: define/scenarios/api/
         -
           title: Backoffice
-          relative_url: production/define/scenarios/backoffice/
+          permalink: define/scenarios/backoffice/
         -
           title: Frontoffice
-          relative_url: production/define/scenarios/frontoffice/
+          permalink: define/scenarios/frontoffice/
 -
   title: Design
-  # relative_url: production/design/
+  # permalink: design/
   children:
     -
       title: Gegevens
-      relative_url: production/design/gegevens/
+      permalink: design/gegevens/
     -
       title: IA en IxD
-      relative_url: production/design/ia-en-ixd/
+      permalink: design/ia-en-ixd/
       children:
         -
           title: Backoffice
-          relative_url: production/design/ia-en-ixd/backoffice/
+          permalink: design/ia-en-ixd/backoffice/
         -
           title: Frontoffice
-          relative_url: production/design/ia-en-ixd/frontoffice/
+          permalink: design/ia-en-ixd/frontoffice/
     -
       title: Visual Design
-      relative_url: production/design/visual-design/
+      permalink: design/visual-design/
       children:
         -
           title: Style Tiles
-          relative_url: production/design/visual-design/style-tiles/
+          permalink: design/visual-design/style-tiles/
         -
           title: Screen Designs
-          relative_url: production/design/visual-design/screen-designs/
+          permalink: design/visual-design/screen-designs/
           children:
             -
               title: Backoffice
-              relative_url: production/design/visual-design/screen-designs/backoffice/
+              permalink: design/visual-design/screen-designs/backoffice/
             -
               title: Frontoffice
-              relative_url: production/design/visual-design/screen-designs/frontoffice/
+              permalink: design/visual-design/screen-designs/frontoffice/
         -
           title: UI Style Guide
-          relative_url: production/design/visual-design/ui-style-guide/
+          permalink: design/visual-design/ui-style-guide/
 -
   title: Develop
-  # relative_url: production/develop/
+  # permalink: develop/
   children:
     -
       title: GitHub Repositories
-      relative_url: production/develop/repositories/
-
+      permalink: develop/repositories/
 -
   title: Deliver
-  # relative_url: production/deliver/
+  # permalink: deliver/
   children:
     -
       title: Handleiding
-      # relative_url: production/deliver/handleiding/
+      # permalink: deliver/handleiding/
       children:
         -
           title: Backoffice
-          relative_url: production/deliver/handleiding/backoffice/
+          permalink: deliver/handleiding/backoffice/
         -
           title: Frontoffice
-          relative_url: production/deliver/handleiding/frontoffice/
+          permalink: deliver/handleiding/frontoffice/
     -
       title: Timesheet
-      relative_url: production/deliver/timesheet/
+      permalink: deliver/timesheet/
 -
   title: Deploy
-  # relative_url: production/deploy/
+  # permalink: deploy/
   children:
     -
       title: Deployment Guide
-      # relative_url: production/deliver/handleiding/
+      # permalink: deploy/deployment-guide/
       children:
         -
           title: Backoffice
-          relative_url: production/deliver/deployment-guide/backoffice/
+          permalink: deploy/deployment-guide/backoffice/
         -
           title: Frontoffice
-          relative_url: production/deliver/deployment-guide/frontoffice/
+          permalink: deploy/deployment-guide/frontoffice/

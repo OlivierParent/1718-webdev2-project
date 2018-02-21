@@ -1,7 +1,10 @@
 ---
-layout   : production
-permalink: production/define/analyse/
+layout   : default
+permalink: discover/briefing/
 # Custom Page Variables
 # ─────────────────────
-title: Analyse
+title: Discover
 ---
+
+Briefing
+--------

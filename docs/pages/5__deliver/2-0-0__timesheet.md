@@ -1,6 +1,6 @@
 ---
-layout   : production
-permalink: production/deliver/timesheet/
+layout   : default
+permalink: deliver/timesheet/
 # Custom Page Variables
 # ─────────────────────
 title: Timesheet

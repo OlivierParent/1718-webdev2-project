@@ -1,9 +1,7 @@
 ---
-layout   : production
-permalink: production/design/smartwatch-app/wireflow/
+layout   : default
+permalink: define/requirements/
 # Custom Page Variables
 # ─────────────────────
-title: Wireflow
+title: Concept
 ---
-
-

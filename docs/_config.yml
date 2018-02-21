@@ -10,7 +10,7 @@ baseurl: /1718-webdev2-project # the subpath of your site, e.g. /blog
 
 # Custom Site variables
 # ─────────────────────
-title: Web Development II
+title: Web Development II 2017-2018
 new_array: []
 
 # Build settings
@@ -19,7 +19,6 @@ defaults:
 
 exclude:
   - Gemfile
-  - README.md
 
 plugins:
 # - jekyll-feed

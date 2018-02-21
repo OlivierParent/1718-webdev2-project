@@ -1,7 +1,7 @@
 ---
-layout   : production
-permalink: production/define/concept/
+layout   : default
+permalink: deliver/handleiding/frontoffice/
 # Custom Page Variables
 # ─────────────────────
-title: Concept
+title: Frontoffice
 ---

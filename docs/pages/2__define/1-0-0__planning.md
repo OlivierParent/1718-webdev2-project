@@ -1,7 +1,7 @@
 ---
-layout   : production
-permalink: production/design/website/
+layout   : default
+permalink: define/planning/
 # Custom Page Variables
 # ─────────────────────
-title: Website
+title: Planning
 ---

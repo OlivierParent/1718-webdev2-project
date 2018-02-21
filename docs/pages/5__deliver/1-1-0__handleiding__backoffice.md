@@ -1,7 +1,7 @@
 ---
-layout   : production
-permalink: production/define/technische-analyse/
+layout   : default
+permalink: deliver/handleiding/backoffice/
 # Custom Page Variables
 # ─────────────────────
-title: Technische Analyse
+title: Backoffice
 ---

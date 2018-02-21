@@ -1,7 +1,7 @@
 ---
-layout   : production
-permalink: production/define/ideaboard/
+layout   : index
+permalink: index.html
 # Custom Page Variables
 # ─────────────────────
-title: Ideaboard
+title: Productiedossier
 ---

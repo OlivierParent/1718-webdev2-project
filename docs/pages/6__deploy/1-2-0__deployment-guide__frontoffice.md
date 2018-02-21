@@ -1,10 +1,7 @@
 ---
-layout   : production
-permalink: production/develop/
+layout   : default
+permalink: deploy/deployment-guide/backoffice/
 # Custom Page Variables
 # ─────────────────────
-title: Develop
+title: Backoffice
 ---
-
-Overzicht
----------

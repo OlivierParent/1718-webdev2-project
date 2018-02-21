@@ -1,10 +1,7 @@
 ---
-layout   : production
-permalink: production/discover/briefing/
+layout   : default
+permalink: develop/repositories/
 # Custom Page Variables
 # ─────────────────────
-title: Discover
+title: GitHub Repositories
 ---
-
-Briefing
---------

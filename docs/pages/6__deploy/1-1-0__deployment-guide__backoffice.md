@@ -1,7 +1,7 @@
 ---
-layout   : production
-permalink: production/design/smartwatch-app/
+layout   : default
+permalink: deploy/deployment-guide/backoffice/
 # Custom Page Variables
 # ─────────────────────
-title: Smartwatch-app
+title: Backoffice
 ---

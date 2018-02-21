@@ -1,7 +1,7 @@
 ---
-layout   : production
-permalink: production/design/smartphone-app/
+layout   : default
+permalink: define/concept/
 # Custom Page Variables
 # ─────────────────────
-title: Smartphone-app
+title: Concept
 ---

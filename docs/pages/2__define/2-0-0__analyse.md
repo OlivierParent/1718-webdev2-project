@@ -1,7 +1,7 @@
 ---
-layout   : production
-permalink: production/design/smartphone-app/wireflow/
+layout   : default
+permalink: define/analyse/
 # Custom Page Variables
 # ─────────────────────
-title: Wireflow
+title: Analyse
 ---
