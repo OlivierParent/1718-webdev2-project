@@ -4,13 +4,13 @@ $scrollbar-width: .4em;
   width: $scrollbar-width;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(red, .2);
+  background: #{map-get($swatches, 'secondary-light')}
     // -webkit-box-shadow: none;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgba($primary, .5);
+  background-color: #{map-get($swatches, 'primary-light')};
   border-radius: $scrollbar-width / 2;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: blue;
+  background-color: #{map-get($swatches, 'primary')};
 }

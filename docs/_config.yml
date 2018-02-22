@@ -1,6 +1,7 @@
-# ╔════════════════════════════════════════════════════════════════════════════╗
-# ║ This file is only read once per server start. Restart server when changed! ║
-# ╚════════════════════════════════════════════════════════════════════════════╝
+# ╔══════════════════════════════════════════════╗
+# ║ This file is only read once per server start.║
+# ║ Restart server when changed!                 ║
+# ╚══════════════════════════════════════════════╝
 
 # Site settings
 # ─────────────
@@ -10,8 +11,7 @@ baseurl: /1718-webdev2-project # the subpath of your site, e.g. /blog
 
 # Custom Site variables
 # ─────────────────────
-title: Web Development II 2017-2018
-new_array: []
+title: Web Development II
 
 # Build settings
 # ──────────────

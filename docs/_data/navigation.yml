@@ -56,28 +56,31 @@
   # permalink: design/
   children:
     -
-      title: Gegevens
-      permalink: design/gegevens/
+      title: Data Modeling
+      permalink: design/data-modeling/
     -
       title: IA en IxD
-      permalink: design/ia-en-ixd/
+      # permalink: design/ia-en-ixd/
       children:
         -
-          title: Backoffice
-          permalink: design/ia-en-ixd/backoffice/
+          title: Sitemap
+          permalink: design/ia-en-ixd/sitemap/
         -
-          title: Frontoffice
-          permalink: design/ia-en-ixd/frontoffice/
+          title: Wireframes
+          permalink: design/ia-en-ixd/wireframes/
+        -
+          title: Wireflow
+          permalink: design/ia-en-ixd/wireflow/
     -
       title: Visual Design
-      permalink: design/visual-design/
+      # permalink: design/visual-design/
       children:
         -
           title: Style Tiles
           permalink: design/visual-design/style-tiles/
         -
           title: Screen Designs
-          permalink: design/visual-design/screen-designs/
+          # permalink: design/visual-design/screen-designs/
           children:
             -
               title: Backoffice
@@ -87,14 +90,14 @@
               permalink: design/visual-design/screen-designs/frontoffice/
         -
           title: UI Style Guide
-          permalink: design/visual-design/ui-style-guide/
+          permalink: design/ui-style-guide/
 -
   title: Develop
   # permalink: develop/
   children:
     -
-      title: GitHub Repositories
-      permalink: develop/repositories/
+      title: GitHub Repository
+      permalink: develop/repository/
 -
   title: Deliver
   # permalink: deliver/

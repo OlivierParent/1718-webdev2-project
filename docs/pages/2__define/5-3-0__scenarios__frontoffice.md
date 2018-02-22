@@ -1,7 +1,7 @@
 ---
 layout   : default
-permalink: develop/repositories/
+permalink: define/scenarios/frontoffice/
 # Custom Page Variables
 # ─────────────────────
-title: GitHub Repositories
+title: Frontoffice
 ---

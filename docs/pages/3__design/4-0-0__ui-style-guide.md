@@ -1,9 +1,7 @@
 ---
 layout   : default
-permalink: deliver/timesheet/
+permalink: design/ui-style-guide/
 # Custom Page Variables
 # ─────────────────────
-title: Timesheet
+title: UI Style Guide
 ---
-
-{% include timesheet.md timesheet=site.data.timesheet %}

@@ -1,9 +1,7 @@
 ---
 layout   : default
-permalink: deliver/timesheet/
+permalink: define/scenarios/api/
 # Custom Page Variables
 # ─────────────────────
-title: Timesheet
+title: API
 ---
-
-{% include timesheet.md timesheet=site.data.timesheet %}

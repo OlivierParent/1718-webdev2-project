@@ -1,13 +1,10 @@
 ---
 layout   : default
-permalink: define/planning/
+permalink: design/ia-en-ixd/sitemap/
 # Custom Page Variables
 # ─────────────────────
-title: Planning
+title: Sitemap
 ---
 
-Work Breakdown Structure
-------------------------
-
-Gantt Chart
------------
+Backoffice
+----------

@@ -1,20 +1,22 @@
-$nav-link-indent-base: 2em;
-$nav-link-indent-level: .75em;
-$text-default: $primary;
-$text-invert: white;
+$nav-link-indent-base: 2rem;
+$nav-link-indent-level: .75rem;
+$nav-link-indent-offset: .25rem;
+$text-default: #{map-get($swatches, 'primary')};
+$text-invert: #{map-get($swatches, 'light')};
 
 .nav {
-  font-family: $font-family-primary;
-  background-color: $dark;
+  background-color: #{map-get($swatches, 'dark')};
   counter-reset: nav-level-0;
   flex-wrap: nowrap;
+  font-family: #{map-get($fonts, 'primary')};
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   > .nav__link {
-    background-color: $primary;
+    background-color: #{map-get($swatches, 'primary')};
+    position: relative;
     padding: 1em 0 1em $nav-link-indent-base;
     &:active,
     &:link,
@@ -23,7 +25,11 @@ $text-invert: white;
       color: $text-invert;
     }
     &:hover {
-      background-color: $secondary;
+      background-color: #{map-get($swatches, 'secondary')};
+    }
+    > i {
+      left: $nav-link-indent-offset;
+      position: absolute;
     }
   }
 }
@@ -40,17 +46,17 @@ $text-invert: white;
     color: $text-default;
   }
   &:hover {
-    background-color: $secondary;
+    background-color:  #{map-get($swatches, 'secondary')};
     color: $text-invert;
   }
   &::before {
+    left: $nav-link-indent-offset;
     opacity: .5;
     padding-left: .25em;
     position: absolute;
-    left: 0;
   }
   &.nav__link--active {
-    background-color: $primary-light;
+    background-color:  #{map-get($swatches, 'primary-light')};
     color: $text-invert;
   }
   &.nav__link--disabled {

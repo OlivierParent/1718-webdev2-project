@@ -1,13 +1,10 @@
 ---
 layout   : default
-permalink: define/planning/
+permalink: design/ia-en-ixd/wireflow/
 # Custom Page Variables
 # ─────────────────────
-title: Planning
+title: Wireflow
 ---
 
-Work Breakdown Structure
-------------------------
-
-Gantt Chart
+Frontoffice
 -----------

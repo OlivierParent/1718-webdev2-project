@@ -1,3 +1,20 @@
+$fonts: (
+  primary  : 'Roboto, sans-serif',
+  secondary: '"Source Sans Pro", sans-serif',
+  code     : 'Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+);
+
+$swatches: (
+  primary        : #3906EC,
+  primary-dark   : #0026CA,
+  primary-light  : #7A7CFF,
+  secondary      : #F44336,
+  secondary-light: #FF7961,
+  secondary-dark : #BA000D,
+  light          : #FFFFFF,
+  dark           : #F5F5F5,
+);
+
 // Fonts
 $font-code: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-sans-serif: "Source Sans Pro", sans-serif;

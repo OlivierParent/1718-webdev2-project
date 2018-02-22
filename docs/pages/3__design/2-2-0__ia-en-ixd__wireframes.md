@@ -1,13 +1,10 @@
 ---
 layout   : default
-permalink: define/planning/
+permalink: design/ia-en-ixd/wireframes/
 # Custom Page Variables
 # ─────────────────────
-title: Planning
+title: Wireframes
 ---
 
-Work Breakdown Structure
-------------------------
-
-Gantt Chart
------------
+Backoffice
+----------

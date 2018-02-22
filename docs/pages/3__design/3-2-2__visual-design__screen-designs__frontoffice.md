@@ -1,9 +1,7 @@
 ---
 layout   : default
-permalink: deliver/timesheet/
+permalink: design/visual-design/screen-designs/frontoffice/
 # Custom Page Variables
 # ─────────────────────
-title: Timesheet
+title: Frontoffice
 ---
-
-{% include timesheet.md timesheet=site.data.timesheet %}

@@ -1,13 +1,8 @@
 ---
 layout   : default
-permalink: define/planning/
+permalink: develop/repository/
 # Custom Page Variables
 # ─────────────────────
-title: Planning
+title: GitHub Repository
 ---
 
-Work Breakdown Structure
-------------------------
-
-Gantt Chart
------------

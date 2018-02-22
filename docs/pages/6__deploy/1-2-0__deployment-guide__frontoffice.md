@@ -1,7 +1,7 @@
 ---
 layout   : default
-permalink: deploy/deployment-guide/backoffice/
+permalink: deploy/deployment-guide/frontoffice/
 # Custom Page Variables
 # ─────────────────────
-title: Backoffice
+title: Frontoffice
 ---

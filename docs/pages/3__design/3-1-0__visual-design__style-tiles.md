@@ -1,6 +1,6 @@
 ---
 layout   : default
-permalink: design/style-tiles/
+permalink: design/visual-design/style-tiles/
 # Custom Page Variables
 # ─────────────────────
 title: Style Tiles

@@ -1,9 +1,9 @@
 ---
 layout   : default
-permalink: define/requirements/
+permalink: define/requirements/api/
 # Custom Page Variables
 # ─────────────────────
-title: Requirements
+title: API
 ---
 
 Functional Requirements

@@ -1,13 +1,10 @@
 ---
 layout   : default
-permalink: define/planning/
+permalink: design/data-modeling/
 # Custom Page Variables
 # ─────────────────────
-title: Planning
+title: Data Modeling
 ---
 
-Work Breakdown Structure
-------------------------
-
-Gantt Chart
------------
+EER
+---

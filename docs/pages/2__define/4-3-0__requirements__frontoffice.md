@@ -1,9 +1,9 @@
 ---
 layout   : default
-permalink: define/requirements/
+permalink: define/requirements/frontoffice/
 # Custom Page Variables
 # ─────────────────────
-title: Requirements
+title: Frontoffice
 ---
 
 Functional Requirements
