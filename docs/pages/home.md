@@ -6,7 +6,19 @@ permalink: home
 title: Opdracht WEBDEV-II
 ---
 
-Wie ben ik?
------------
+{{ site.title }}
 
-John Doe, 2MMP NMD
+Academiejaar 2017-2018
+
+---
+
+### {{ site.project }}
+#### {{ site.given_name }} {{ site.family_name }}
+
+---
+
+New Media Development
+
+Ba. in de grafische en digitale media: multimediaproductie
+
+Arteveldehogeschool
